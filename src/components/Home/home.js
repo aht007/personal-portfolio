@@ -14,7 +14,7 @@ function Home() {
           <img 
             src={require("../../assets/main.jpg")}
             className="picture"
-            alt="ahtasham's-picture"
+            alt="ahtasham"
           />
         </div>
       </div>
