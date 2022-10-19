@@ -1,0 +1,15 @@
+.about-me-container{
+    margin: 5em;
+}
+
+.about-me{
+    font-size: 21px;
+    line-height: 40px;
+    color: #3A6E73;
+    font-family: 'Raleway', sans-serif;
+}
+
+.about-title {
+    font-size: 30px;
+    font-weight: 600;
+}

@@ -6,9 +6,11 @@ import "bootstrap-social/bootstrap-social.css"
 import App from './App';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <div>
+            <App />
+        </div>
+    </React.StrictMode>,
+    document.getElementById('root')
 );
 
