@@ -7,7 +7,7 @@ function Social() {
     <div className="social">
         {data.map ((item) => {
           return (
-            <a href={item.link}>
+            <a href={item.link} target="_blank" rel="noreferrer">
               <div className="social-icon-div">
                 <img src={item.icon} className="social-icon" alt="social" />
               </div>
