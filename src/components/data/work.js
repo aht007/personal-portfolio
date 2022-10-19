@@ -1,18 +1,20 @@
 export const WorkData = [
     {
-        company: "Web Developer" ,
-        designation: "Web Developer",
-        dateJoining: "11.10.2020",
+        company: "Arbisoft(Subcontracted to edX)",
+        designation: "Software Engineer",
+        dateJoining: "July-2021",
         dateEnd: "Present",
-        companyLogo:"https://cdn-icons-png.flaticon.com/512/2537/2537338.png",
-        work:"Freelance Front-End Web Developer with 1.5 years of experience developing, implementing and supporting websites for commercial and non-commercial clients.I have also Quick learner and problem-solving skills."
+        companyLogo: require("../../assets/icons/arbisoft.png"),
+        stack: "Django and Django rest framework, React, Docker, AWS, CI/CD.",
+        work: "Maintaining code dependencies versions, keeping code base up to date, writing new code modernizers, writing and maintaining CI workflows and standardizing the code across edX repos as well as replacing Aging Infrastructure with latest tools and tech"
     },
     {
-        company: "Youtuber" ,
-        designation: "Youtuber",
-        dateJoining: "23.04.2021",
-        dateEnd: "Present",
-        companyLogo:"https://cdn-icons-png.flaticon.com/512/2537/2537415.png",
-        work:"I am an experienced and specializes in information technology.I bring you guys Latest Tips and Tricks for your mobile so that you can enjoy your Phone completely.Don't forget subscribe and like for more videos"
+        company: "Datalatics",
+        designation: "Software Engineer",
+        dateJoining: "Jan-2021",
+        dateEnd: "Mar-2021",
+        companyLogo: require('../../assets/icons/datalatics.jpeg'),
+        stack:"React, Redux, Node, Express, MongoDB, NestJS, Socket.io",
+        work: "Worked on DeenFund web App frontend in React, Redux and Bootstrap. Wrote some backend APIs in NestJs. Implemented Chat functionality through socket communication using Socket.io in a nodeJS based application."
     },
 ]

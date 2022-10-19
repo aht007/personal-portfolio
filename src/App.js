@@ -13,10 +13,12 @@ class App extends React.Component {
             <div className="App">
                 <BrowserRouter>
                     <Header />
-                    <Routes>
-                        <Route exact path="/" element={<Home />} />
-                        <Route exact path="/about" element={<About />}/>
-                    </Routes>
+                    <div className="home" style={{ padding: "12px", paddingBottom: "36px" }}>
+                        <Routes>
+                            <Route exact path="/" element={<Home />} />
+                            <Route exact path="/about" element={<About />} />
+                        </Routes>
+                    </div>
                 </BrowserRouter>
             </div>
         );

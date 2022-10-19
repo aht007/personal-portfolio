@@ -15,25 +15,43 @@ export const SkillsData = [
         icon: <i class="devicon-javascript-plain colored"></i>
       },
       {
-        name: "TailwindCSS",
-        icon: <i class="devicon-tailwindcss-plain colored"></i>
+        name: "Bootstrap",
+        icon: <i class="devicon-bootstrap-plain colored"></i>
+      },
+
+    ],
+  },
+  {
+    type: "Backend",
+    list: [
+      {
+        name: "Django",
+        icon: <i class="devicon-django-plain-wordmark"></i>
+      },
+      {
+        name: "Django Rest Framework",
+        icon: <i class="devicon-django-plain"></i>
+      },
+      {
+        name: "NodeJS",
+        icon: <i class="devicon-nodejs-plain-wordmark colored"></i>
       },
     ],
   },
   {
-    type: "Other Skills",
+    type: "DevOps",
     list: [
       {
-        name: "Firebase",
-        icon: <i class="devicon-firebase-plain colored"></i>
+        name: "Aws",
+        icon: <i class="devicon-amazonwebservices-original colored"></i>
       },
       {
-        name: "Bootstrap",
-        icon: <i class="devicon-bootstrap-plain colored"></i>
+        name: "Github Actions",
+        icon: <i class="devicon-github-original colored"></i>
       },
       {
-        name: "Azure",
-        icon: <i class="devicon-azure-plain colored"></i>
+        name: "Docker",
+        icon: <i class="devicon-docker-plain colored"></i>
       },
     ],
   },
