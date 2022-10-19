@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from 'reactstrap'
 import SocialContact from "../Social";
+
 function Home() {
     return (
         <Container >
