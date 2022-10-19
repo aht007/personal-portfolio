@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../src/components/Navbar'
 import "./App.css"
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/home'
 import About from './pages/about'
 import Contact from './pages/contact'
@@ -11,7 +11,7 @@ class App extends React.Component {
     render() {
         return (
             <div className="App">
-                <BrowserRouter>
+                <HashRouter>
                     <Header />
                     <div className="home" style={{ padding: "12px", paddingBottom: "36px" }}>
                         <Routes>
@@ -20,7 +20,7 @@ class App extends React.Component {
                             <Route exact path='contact' element={<Contact />} />
                         </Routes>
                     </div>
-                </BrowserRouter>
+                </HashRouter>
             </div>
         );
     }
